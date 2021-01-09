@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>第六组作业</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/css_example.css " rel="stylesheet" type="text/css"> 
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .header {
+            width: 100%;
+            height: 58px;
+            background-color: #191D3A;
+        }
+ 
+        .inner {
+            width: 1000px;
+            height: 58px;
+            margin: 0 auto;
+            clear: both;
+        }
+ 
+        .inner .logo {
+            float: left;
+            width: 500px;
+            height: 44px;
+            margin: 7px 0;
+        }
+ 
+        .header .nav {
+            float: left;
+            height: 58px;
+        }
+ 
+        .header .inner .navs #current {
+            color: #E2E4ED;
+            background-color: #252947;
+        }
+ 
+        .header .inner .navs a {
+            float: left;
+            width: 85px;
+            height: 58px;
+            border-left: 1px solid #252947;
+            border-right: 1px solid #252947;
+            color: #818496;
+            text-decoration: none;
+            text-align: center;
+            line-height: 58px;
+            font-size: 14px;
+        }
+ 
+        .header .inner .navs .joinus {
+            margin: 12px 0 0 10px;
+            height: 32px;
+            width: 98px;
+            border: 1px solid #3aca7a;
+            border-radius: 3px;
+            background-color: #38b774;
+            color: #fff;
+            text-align: center;
+            line-height: 32px;
+        }
+ 
+        .header .inner .nav:hover {
+            color: #fff;
+        }
+ 
+        .header .inner .navs .joinus:hover {
+            background-color: green;
+        }
+ 
+        .header .inner .changelang {
+            float: right;
+            line-height: 58px;
+            /*   padding-left:20px;  在盒子里改的话，若未设置盒子高宽，则会缩短内容的长度 ，比如原来
+            自动分配给内容90px，但有了边距，则会自动分配70px，另外20px给了边距*/
+            /* 在内容里改的话，相当于内容的外边距 */
+ 
+ 
+        }
+ 
+        .header .inner .changelang a {
+            display: block;
+            margin-right: 10px;
+            float: left;
+            color: #818496;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+        }
+ 
+        .header .inner .changelang .cn {
+            color: #1F9574;
+ 
+        }
+ 
+        .header .inner .changelang a:hover {
+            color: #1F9574;
+        }
+ 
+        /* banner */
+        .banner {
+            width: 100%;
+ 
+        }
+ 
+        /* content */
+        .content {
+ 
+            width: 1200px;
+            margin: 10px auto;
+ 
+        }
+ 
+        /* .content li {
+            list-style: none;
+        } */
+ 
+        /* 列表 */
+        .content ul li {
+            list-style: none;
+            float: left;
+            width: 218px;
+            margin-right: 40px;
+        }
+ 
+        .content ul li  img { 
+            width: 218px;
+            height: 130px;
+ 
+        }
+ 
+        .content ul li h4 {
+            text-align: center;
+            line-height: 38px;
+            font-size: 14px;
+        }
+ 
+        .content ul li .bf {
+            text-align: center;
+            height: 20px;
+        }
+ 
+        .content ul li a {
+            color: green;
+            font-size: 14px;
+            text-decoration: none;
+            background: url(imgs/sanjiaoxing.png) no-repeat right 7px;
+            padding-right: 12px;
+        }
+    </style>
+	<style>body{background-color:#C3E3EF}
+		table, th, td{border: 1px solid black;}
+table{ width:94%; }
+		th{height:70px;}
+td{text-align:center;height:50px; vertical-align:bottom; }
+	</style>
+</head>
+ 
+<body>
+    <!-- 导航栏 -->
+    <div class="header">
+        <div class="inner">
+            <div class="logo">
+                <img src="images/logo.jpg" width="150">
+            </div>
+            <div class="navs">
+                <a href="shouye.html" class="nav" >首页</a>
+                <a href="wenzhang.html" class="nav" id="current">文章</a>
+                <a href="tuku.html" class="nav">图库</a>
+                <a href="https://baike.baidu.com/item/%E5%88%BA%E5%AE%A2%E4%BC%8D%E5%85%AD%E4%B8%83/22328738?fr=aladdin" class="joinus">了解更多</a>
+            </div>
+        </div>
+    </div>
+    <!-- banner：静态 -->
+    <div class="banner">
+        <img src="images/banner.jpg" width="1300">
+		 <img src="images/banner2.jpg" width="175">
+    </div>
+    <!-- 宣传栏 -->
+<p style="font-family: arial;color;red;font-size:20px;">项目概述<br><br>
+	随着移动互联网的时代发展，手机发展迅速，功能也越来越强大，所能接受的信息量也复杂多样性，各行各业的信息资料都可以通过各种网页和app获取到。
+虽然，手机可以使我们的工作娱乐方式简便多彩，但是，同时也导致了我们过于依赖手机，越来越多的人都会出现一种现象——手机成瘾症，只要手机不在身边一刻就会左立不安，而不用手机一整天会觉得与世隔绝，特别没有安全。
+然而，对于消息的回复，一般情况下并非要及时，很多时候都是聊天性的消息，而新闻八卦这类的信息，也可以不用马上知道，可以从历史消息中查看得到，真正造成我们对手机如此频繁的打开的原因是自身的意志力不坚定，而这就导致了我们不能专心于眼前的事务，比如：正在学习，念头驱使着你打开手机，打算只看一下有没有重要消息，等回过神来缺发现已经玩了几个小时，然后，自己后悔万分，下次学习缺依旧如此。
+因此，为了迎合用户的需求，我们设计了一款个人效率类的网页，它通过设定专注时间来强制用户暂时离开手机，从而获得一些奖励，同时该网页也是一个解决学习上问题的论坛，用户可以在网页中提出困惑和分享学习经验。很好解决了普遍用户的需求。
+	</p >
+  <p1>
+  <li>意义：
+   <ol>本网站主要针对学生无法集中精力学习，缺乏学习兴趣等情况，通过累计积分，分享排名等方式，使用户在使用过程中获得满足感和成就感。网站通过部分娱乐性内容来引导用户坚持使用，使用户逐渐养成学习的习惯，并同时在学习的过程中体验到乐趣。用户在使用时也可以添加好友与好友进行互动，进一步扩大社交范围。
+   </ol></li>
+  </p1>
+  <p2>
+   <li>内容：
+    <ol>用户的界面是一个花园。花园购买原材料、装修、添加设备等通过学习时长换取金币。
+在设定学习时长后开始计时，在学习过程中，用户可以得到金币（根据时间长短来计算得到的金币）但如果中断或退出学习，就将得不到金币。
+另外，用户学习得到的金币也可以用来购买种子在花园中播种。你也可以通过添加好友，去拜访好友的花园。升级的花园装饰等都可以让你在学习的时候获得的金币更多。
+网站另设有一个老板交流中心，用于社交和解决学习上的问题等，相当于一个论坛。解决他人的困惑同样可以得到一些金币。发表学习经验贴也可以获得金币。
+    </ol>
+   </li>
+  </p2>
+</body>
+ 
+</html>
